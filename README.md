@@ -1,4 +1,4 @@
-<h1>Portfoli</h1>
+<h1>Portfolio</h1>
 
 <p>Made with react</p>
 <p>WIP Please check back later!</p>
