@@ -1,0 +1,191 @@
+/* Nav */
+.navItems{
+    margin-right: 0.4vw;
+}
+.navItems a{
+    text-decoration: none;
+    margin: 0 0.8vw;
+    background-color: white;
+    border-radius: 0.8vw;
+    border: 1px solid lightgray;
+    color: black;
+    padding: 0.4vh 2vw;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.navItems a:hover{
+    font-family: 'Rubik Glitch', cursive;
+    padding: 0.92vh 1.82vw;
+}
+
+/* Nav */
+
+/* Header */
+
+.titleText{
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 5vw;
+    letter-spacing: 4px;
+    background-color: rgba(30, 30, 30, 0.6);
+    color: whitesmoke;
+    padding: 0.8vh 8vw;
+    margin: 3vh 0;
+    text-align: center;
+    animation-name: headerGlitch;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.headerContent{
+    text-align: center;
+}
+
+.headerContent p{
+    color: whitesmoke;
+    font-size: 2vw;
+}
+/* Header */
+
+
+/* About */
+.parentBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutContent{
+    background-color: rgba(240, 240, 240, 0.95);
+    width: 44vw;
+    font-size: 1vw;
+    padding: 8px;
+    box-shadow: 0 0 16px rgba(40, 40, 40, 0.9);
+    border: 1px solid black;
+    border-radius: 0.8vw;
+}
+.avatar{
+    width: 24vw;
+    height: 24vh;
+    padding: 0 0.8vw;
+    margin-top: 1.6vh;
+    margin-right: 2.4vw;
+}
+
+.cardStyleText{
+    border: 1px solid black;
+    padding: 5% 10%;
+    width: 25%;
+}
+
+.mainContent{
+    display: flex;
+    border: 1px solid black;
+    padding: 1vh 1vw;
+    border-radius: 0.8vw;
+}
+.subContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.2vw;
+}
+
+/* About */
+
+/* Contact */
+
+.contactForm{
+    background: rgba(30, 30, 30, 0.8);
+    color: whitesmoke;
+    padding: 0.4vh 0.8vw;
+    margin: 0 8vw;
+}
+
+#inputName{
+    width: 32vw;
+    height: 4vh;
+    border-radius: 0.8vw;
+}
+
+#inputEmail{
+    width: 32vw;
+    height: 4vh;
+    border-radius: 0.8vw;
+}
+
+
+#inputField{
+    border-radius: 0.8vw;
+    width: 32vw;
+    height: 8vh;
+}
+
+#submit{
+    margin: 2vh 0vw;
+    padding: 0;
+    height: 4vh;
+    width: 32vw;
+    font-family: 'Rubik Glitch', cursive;
+    background-color: white;
+    border-radius: 0.8vw;
+    font-size: 1vw;
+}
+#submit:hover{
+    background-color: lightskyblue;
+    color: white;
+    text-shadow: 0px 0px 0.18vw black;
+}
+
+.snsTitle{
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 1.6vw;
+    letter-spacing: 4px;
+    background-color: rgba(30, 30, 30, 0.6);
+    color: whitesmoke;
+    padding: 0.8vh 4vw;
+    margin: 3vh 0;
+    text-align: center;
+}
+.socialMedia{
+    padding-bottom: 0vh;
+}
+.socialMedia ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.8vw;
+}
+
+.socialMedia ul li{
+    font-size: 4vw;
+    margin: 0 2vw;
+}
+
+
+.socialMedia ul li a{
+    color: white;
+}
+.socialMedia ul li a:hover{
+    color: lightskyblue;
+}
+
+/* Contact */
+
+
+/* animations */
+@keyframes headerGlitch {
+    0%   {text-shadow: 0 0 0.8vw red}
+    10%  {text-shadow: 0 0 0.8vw purple}
+    25%  {text-shadow: 0 0 0.8vw blue}
+    30%  {text-shadow: 0 0 0.8vw cyan}
+    50%  {text-shadow: 0 0 0.8vw turquoise}
+    65%  {text-shadow: 0 0 0.8vw lime}
+    75%  {text-shadow: 0 0 0.8vw yellow}
+    88%  {text-shadow: 0 0 0.8vw orange}
+    100% {text-shadow: 0 0 0.8vw orangered}
+}
+
+
+/* animations */
