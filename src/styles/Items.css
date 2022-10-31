@@ -13,8 +13,8 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .navItems a:hover{
-    font-family: 'Rubik Glitch', cursive;
-    padding: 0.92vh 1.82vw;
+    background-color: lightskyblue;
+    color: white;
 }
 
 /* Nav */
@@ -22,7 +22,7 @@
 /* Header */
 
 .titleText{
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 5vw;
     letter-spacing: 4px;
     background-color: rgba(30, 30, 30, 0.6);
@@ -33,7 +33,7 @@
     animation-name: headerGlitch;
     animation-duration: 8s;
     animation-timing-function: linear;
-    animation-delay: 1s;
+    animation-delay: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -100,18 +100,21 @@
     color: whitesmoke;
     padding: 0.4vh 0.8vw;
     margin: 0 8vw;
+    /* text-align: center; */
 }
 
 #inputName{
     width: 32vw;
     height: 4vh;
     border-radius: 0.8vw;
+    padding: 2px 8px;
 }
 
 #inputEmail{
     width: 32vw;
     height: 4vh;
     border-radius: 0.8vw;
+    padding: 2px 8px;
 }
 
 
@@ -119,6 +122,7 @@
     border-radius: 0.8vw;
     width: 32vw;
     height: 8vh;
+    padding: 2px 8px;
 }
 
 #submit{
@@ -126,7 +130,7 @@
     padding: 0;
     height: 4vh;
     width: 32vw;
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Share Tech Mono', monospace;
     background-color: white;
     border-radius: 0.8vw;
     font-size: 1vw;
@@ -138,7 +142,7 @@
 }
 
 .snsTitle{
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.6vw;
     letter-spacing: 4px;
     background-color: rgba(30, 30, 30, 0.6);
@@ -176,15 +180,15 @@
 
 /* animations */
 @keyframes headerGlitch {
-    0%   {text-shadow: 0 0 0.8vw red}
-    10%  {text-shadow: 0 0 0.8vw purple}
-    25%  {text-shadow: 0 0 0.8vw blue}
-    30%  {text-shadow: 0 0 0.8vw cyan}
-    50%  {text-shadow: 0 0 0.8vw turquoise}
-    65%  {text-shadow: 0 0 0.8vw lime}
-    75%  {text-shadow: 0 0 0.8vw yellow}
-    88%  {text-shadow: 0 0 0.8vw orange}
-    100% {text-shadow: 0 0 0.8vw orangered}
+    10%  {text-shadow: 0 0 0.4vw purple}
+    0%   {text-shadow: 0 0 0.4vw red}
+    25%  {text-shadow: 0 0 0.4vw blue}
+    30%  {text-shadow: 0 0 0.4vw cyan}
+    50%  {text-shadow: 0 0 0.4vw turquoise}
+    65%  {text-shadow: 0 0 0.4vw lime}
+    75%  {text-shadow: 0 0 0.4vw yellow}
+    88%  {text-shadow: 0 0 0.4vw orange}
+    100% {text-shadow: 0 0 0.4vw orangered}
 }
 
 

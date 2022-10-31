@@ -1,12 +1,12 @@
 @import "./Items.css";
 
-/* font-family: 'Mukta', sans-serif;
-font-family: 'Rubik Glitch', cursive; */
+/*     font-family: 'Lato', sans-serif;
+    font-family: 'Share Tech Mono', monospace; */
 
 
 body{
     margin: 0;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #root {

@@ -11,15 +11,18 @@ function About() {
                     <div className="mainContent">
                         <img className="avatar" src={User} alt="user-profile" />
                         <div className="aboutCard">
-                            <p>Audio Engineer/Video Technician with strong experience in the media industry, making a career switch to the tech sector!</p>
-                            <br/>
-                            <p>In the midst of interfacing with digital technologies, I gained a strong interest in software development,
-                            and aspire to be part of an integral community that brings about waves of changes</p>
+                            <p>Audio Engineer/Video Technician with varying experience in the media industry</p>
+                            <p>Whilst interfacing with digital technologies, I gained a strong interest in software development,
+                            and decided to make a bold move and start from the front-end.
+                            </p>
+                            <p>
+                                Current technologies I am focused on: React, Javascript, HTML, CSS & Rails.
+                            </p>
                         </div>
                     </div>
                     <div className="subContent">
                         <p>Alfred Tay</p>
-                        <p>Junior Software Web Developer</p>
+                        <p>Junior Front-end Developer</p>
                     </div>
                 </div>
             </div>
